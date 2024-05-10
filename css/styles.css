@@ -24,6 +24,16 @@
     padding-left: 156px;
     padding-bottom: 120px;
 }
+.portfolio-list{
+    display: flex;
+    list-style-type: none;
+    margin-left: 156px;
+    margin-right: 156px;
+}
+.portfolio{
+margin-top: 119px;
+margin-bottom: 120px;
+}
 .header{
     border-bottom: 1px solid #e7e9fc;
     width: 1440px;
@@ -44,7 +54,6 @@ ul,ol{
     margin: 0;
 }
 .container{
-    width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
 }
@@ -183,6 +192,17 @@ padding-top: 32px;
 padding-right: 16px;
 padding-bottom: 8px;
 }
+.name3{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
+padding-top: 32px;
+padding-left: 16px;
+padding-bottom: 8px;
+}
 .foto{
     background-color: #FFFFFF;
     margin-top: 72px;
@@ -190,6 +210,10 @@ padding-bottom: 8px;
 padding: 0px 0px 32px 0px;
 width: 264px;
 height: 380px;
+}
+.foto2{
+padding-right: 24px;
+padding-bottom: 48px;
 }
 img{
     display: block;
@@ -210,6 +234,16 @@ justify-content: center;
 flex-direction: column;
 gap: 8px;
 }
+.text3{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+padding-bottom: 32px;
+padding-left: 16px;
+}
 .headline{
     text-align: center;
     color: #2E2F42;
@@ -218,11 +252,16 @@ gap: 8px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    padding-top: 120px;
-
+    padding-bottom: 72px;
 }
 .footer{
     background-color: #2E2F42;
+height: 312px;
+}
+.end{
+padding-left: 156px;
+padding-top: 100px;
+padding-bottom: 100px;
 }
 .icon{
     color: #F4F4FD;
@@ -239,4 +278,6 @@ text-transform: uppercase;
     font-size: 16px;
     line-height: 1.5;
 letter-spacing: 0.32px;
+width: 264px;
+padding-top: 16px;
 }

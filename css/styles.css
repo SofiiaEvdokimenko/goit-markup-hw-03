@@ -1,0 +1,123 @@
+.list{
+    list-style-type: none;
+}
+.logo, .navigation, .contact, .icon{
+    text-decoration: none;
+}
+.contacts{
+    font-style: normal
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+.logo{
+    color: #4D5AE5;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+letter-spacing: 0.54px;
+text-transform: uppercase;
+}
+.logos{
+    color: #2E2F42;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+letter-spacing: 0.54px;
+text-transform: uppercase;
+}
+.navigation{
+    color: #2E2F42;
+    font-weight: 500;
+    font-size: 16px;
+    line-height:1.5;
+letter-spacing: 0.32px;
+}
+.navigation:hover, .navigation:focus{
+    color: #404BBF;
+}
+.contact{
+    color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+letter-spacing: 0.32px;
+}
+.contact:hover, .contact:focus{
+    color: #404BBF;
+}
+.heading{
+    background-color: #2E2F42;
+}
+.title{
+    text-align: center;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+letter-spacing: 1.12px;
+}
+button{
+    cursor: pointer;
+}
+.button{
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+letter-spacing: 0.64px;
+}
+.button:hover, .button:focus{
+background-color: #404BBF;
+}
+.section{
+    background-color: #F4F4FD;
+}
+.name{
+    color: #2E2F42;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.20;
+letter-spacing: 0.4px;
+}
+.foto{
+    background-color: #FFFFFF;
+}
+.text{
+    font-size: 16px;
+    line-height: 1.5;
+letter-spacing: 0.32px;
+}
+.headline{
+    text-align: center;
+    color: #2E2F42;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+.footer{
+    background-color: #2E2F42;
+}
+.icon{
+    color: #F4F4FD;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+letter-spacing: 0.54px;
+text-transform: uppercase;
+}
+.end-text{
+    color: #F4F4FD;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+letter-spacing: 0.32px;
+}

@@ -12,6 +12,19 @@ p{
     margin-bottom: 0;
     margin-top: 0;
 }
+ul,ol{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+.container{
+    width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.header-container{
+    display: flex;
+}
 .logo, .navigation, .contact, .icon{
     text-decoration: none;
 }

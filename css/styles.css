@@ -14,7 +14,15 @@
     display: flex;
     list-style-type: none;
     gap: 40px;
+    align-items: center;
 
+}
+.foto-list{
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+    padding-left: 156px;
+    padding-bottom: 120px;
 }
 .header{
     border-bottom: 1px solid #e7e9fc;
@@ -140,6 +148,7 @@ background-color: #404BBF;
 }
 .section{
     background-color: #F4F4FD;
+height: 732px;
 }
 .info{
 height: 104px;
@@ -156,15 +165,50 @@ height: 104px;
 letter-spacing: 0.4px;
 padding-right: 24px;
 padding-bottom: 8px;
+
+}
+.name2{
+    color: #2E2F42;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.20;
+letter-spacing: 0.4px;
+    display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+gap: 8px;
+padding-left: 16px;
+padding-top: 32px;
+padding-right: 16px;
+padding-bottom: 8px;
 }
 .foto{
     background-color: #FFFFFF;
+    margin-top: 72px;
+    border-radius: 0 0 4px 4px;
+padding: 0px 0px 32px 0px;
+width: 264px;
+height: 380px;
+}
+img{
+    display: block;
 }
 .text{
     font-size: 16px;
     line-height: 1.5;
 letter-spacing: 0.32px;
 padding-right: 24px;
+}
+.text2{
+    font-size: 16px;
+    line-height: 1.5;
+letter-spacing: 0.32px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+gap: 8px;
 }
 .headline{
     text-align: center;
@@ -174,6 +218,8 @@ padding-right: 24px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    padding-top: 120px;
+
 }
 .footer{
     background-color: #2E2F42;

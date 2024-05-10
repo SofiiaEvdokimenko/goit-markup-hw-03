@@ -1,5 +1,9 @@
 .list{
     list-style-type: none;}
+    .info-list{
+        list-style-type: none;
+        display: flex;
+    }
 .nav-list
     {display: flex;
     list-style-type: none;
@@ -101,6 +105,7 @@ letter-spacing: 0.32px;
 }
 .heading{
     background-color: #2E2F42;
+height: 600px;
 }
 .title{
     text-align: center;
@@ -109,6 +114,9 @@ letter-spacing: 0.32px;
     font-size: 56px;
     line-height: 1.07;
 letter-spacing: 1.12px;
+align-items: center;
+padding-top: 188px;
+padding-bottom: 48px;
 }
 button{
     cursor: pointer;
@@ -120,6 +128,12 @@ button{
     font-size: 16px;
     line-height: 1.5;
 letter-spacing: 0.64px;
+align-items: center;
+margin-left: 648px;
+padding-left: 32px;
+padding-top: 16px;
+padding-bottom: 16px;
+padding-right: 32px;
 }
 .button:hover, .button:focus{
 background-color: #404BBF;
@@ -127,12 +141,21 @@ background-color: #404BBF;
 .section{
     background-color: #F4F4FD;
 }
+.info{
+height: 104px;
+    margin-top: 119px;
+    margin-bottom: 120px;
+    margin-left: 156px;
+    margin-right: 156px;
+}
 .name{
     color: #2E2F42;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.20;
 letter-spacing: 0.4px;
+padding-right: 24px;
+padding-bottom: 8px;
 }
 .foto{
     background-color: #FFFFFF;
@@ -141,6 +164,7 @@ letter-spacing: 0.4px;
     font-size: 16px;
     line-height: 1.5;
 letter-spacing: 0.32px;
+padding-right: 24px;
 }
 .headline{
     text-align: center;

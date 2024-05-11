@@ -194,7 +194,7 @@ height: 104px;
 letter-spacing: 0.4px;
 margin-bottom: 8px;
 }
-.name2{
+.name-e{
     color: #2E2F42;
     font-weight: 500;
     font-size: 20px;
@@ -206,10 +206,9 @@ justify-content: center;
 flex-direction: column;
 gap: 8px;
 padding-left: 16px;
-padding-top: 32px;
 padding-right: 16px;
-padding-bottom: 8px;
 text-align: center;
+margin-bottom: 8px
 }
 .name3{
     font-family: "Roboto", sans-serif;
@@ -241,7 +240,7 @@ img{
     line-height: 1.5;
 letter-spacing: 0.32px;
 }
-.text2{
+.text-t{
     font-size: 16px;
     line-height: 1.5;
 letter-spacing: 0.32px;
@@ -252,7 +251,7 @@ flex-direction: column;
 gap: 8px;
 text-align: center;
 }
-.text3{
+.text-3{
     font-family: "Roboto", sans-serif;
     font-weight: 400;
 font-size: 16px;

@@ -35,7 +35,7 @@
     gap: 24px;
     flex-wrap: nowrap;
 }
-.element-1 .element{
+.element{
     width: calc((100% - 3 * 24px) / 4);
 }
 .portfolio{
@@ -183,7 +183,7 @@ height: 104px;
     padding-top: 120px;
     padding-bottom: 120px;
 }
-.name0{
+.name-info{
     visibility: hidden;
 }
 .name{
@@ -192,7 +192,7 @@ height: 104px;
     font-size: 20px;
     line-height: 1.20;
 letter-spacing: 0.4px;
-padding-bottom: 8px;
+margin-bottom: 8px;
 }
 .name2{
     color: #2E2F42;

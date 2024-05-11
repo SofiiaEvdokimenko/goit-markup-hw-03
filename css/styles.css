@@ -34,8 +34,6 @@
     display: flex;
     gap: 24px;
     flex-wrap: nowrap;
-    margin: 0;
-    padding: 0;
 }
 .element-1 .element{
     width: calc((100% - 3 * 24px) / 4);
@@ -182,6 +180,8 @@ height: 104px;
     margin-bottom: 120px;
     margin-left: 156px;
     margin-right: 156px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 .name0{
     visibility: hidden;

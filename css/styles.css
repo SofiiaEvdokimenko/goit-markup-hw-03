@@ -29,6 +29,7 @@
     list-style-type: none;
     margin-left: 156px;
     margin-right: 156px;
+    padding: 120px 0;
 }
 .info-list{
     display: flex;
@@ -231,6 +232,7 @@ height: 380px;
 .foto2{
 padding-right: 24px;
 padding-bottom: 48px;
+width: calc((100% - 72px) / 4);
 }
 img{
     display: block;
@@ -269,10 +271,11 @@ padding-left: 16px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    padding: 120px 0;
+    margin-bottom: 72px;
+    padding-top: 119px;
 }
 .gen{
-    padding: 32px 0
+    padding: 32px 0;
 }
 .footer{
     background-color: #2E2F42;

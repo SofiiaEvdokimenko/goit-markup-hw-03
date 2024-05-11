@@ -33,6 +33,12 @@
 .info-list{
     display: flex;
     gap: 24px;
+    flex-wrap: nowrap;
+    margin: 0;
+    padding: 0;
+}
+.element-1 .element{
+    width: calc((100% - 3 * 24px) / 4);
 }
 .portfolio{
 margin-bottom: 120px;
@@ -127,7 +133,7 @@ letter-spacing: 0.32px;
 .heading{
     background-color: #2E2F42;
 height: 600px;
-padding: 188px 0;
+padding: 120px 0;
 }
 .title{
     text-align: center;
@@ -187,7 +193,6 @@ height: 104px;
     line-height: 1.20;
 letter-spacing: 0.4px;
 padding-bottom: 8px;
-
 }
 .name2{
     color: #2E2F42;

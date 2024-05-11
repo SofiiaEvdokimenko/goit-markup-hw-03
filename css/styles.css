@@ -30,6 +30,10 @@
     margin-left: 156px;
     margin-right: 156px;
 }
+.info-list{
+    display: flex;
+    gap: 24px;
+}
 .portfolio{
 margin-bottom: 120px;
 }
@@ -173,13 +177,15 @@ height: 104px;
     margin-left: 156px;
     margin-right: 156px;
 }
+.name0{
+    visibility: hidden;
+}
 .name{
     color: #2E2F42;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.20;
 letter-spacing: 0.4px;
-padding-right: 24px;
 padding-bottom: 8px;
 
 }
@@ -228,7 +234,6 @@ img{
     font-size: 16px;
     line-height: 1.5;
 letter-spacing: 0.32px;
-padding-right: 24px;
 }
 .text2{
     font-size: 16px;
